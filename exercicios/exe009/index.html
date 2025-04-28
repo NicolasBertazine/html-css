@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagnes adaptativas</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir a iamgem em varios tamanhos</p>
+
+    <picture>
+        <source media="(max-width:3000px)" srcset="imagens/foto-m.jpg" type="image/jpg">
+        <img src="imagens/foto-g.jpg" alt="Imagem flexível">
+    </picture>
+
+        <h1>Reprodução de audio</h1>
+        <p>Aperte no play para começar a tocar</p>
+        
+        <audio preload="metadata" controls loop>
+            <source src="midia/silent-night.mp3" type="audio/mpeg">
+            <p>Infelizmente seu navegador não produz arquivo MP3 <a href="midia/silent-night.mp3">Clique aqui para realizar o download</a></p>
+        </audio>
+</body>
+</html>

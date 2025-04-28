@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+#fundo_index{ /* Página Cinza */
+    background-color: #D3D3D3;
+    font: normal 18pt Arial;
+}
+
+#fundo_verde{ /* Página Verde */
+    background-color: #A6EB9A;
+    font: normal 18pt Arial;
+    color: #2A6218;
+
+}
+
+#fundo_amarelo{ /* Página Amarela*/
+    background-color: #FFFFE3;
+    font: normal 18pt Arial;
+    color: #C3884B;
+}
